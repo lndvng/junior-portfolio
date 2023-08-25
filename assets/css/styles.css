@@ -1,19 +1,24 @@
+/* General styles for entire page */
 * {
     font-family: sans-serif;
 }
 
+/* Set navigation features */
 nav {
     display: flex;
-    background-color: grey;
+    background-color: rgb(184, 168, 147);
     text-align: justify;
     justify-content: space-around;
     width: 100%;
+    padding: 10px;
 }
 
+/* Set name in navbar width to 20% of page */
 nav h1 {
     width: 20%;
 }
 
+/* Set nav links in nav bar to 80% of page */
 nav ul {
     display: flex;
     list-style: none;
@@ -21,10 +26,13 @@ nav ul {
     width: 80%
 }
 
-figure {
-    width: 100%;
+/* Added padding to create space between body titles and content */
+main section {
+    display: flex;
+    padding-right: 2%;
 }
 
+/* Create container for section */
 section {
     display: flex;
     width: 100%;
@@ -32,6 +40,7 @@ section {
     padding-bottom: 2%;
 }
 
+/* Set section titles to 20% of page */
 section h2 {
     display: flex;
     width: 20%;
@@ -39,33 +48,54 @@ section h2 {
     padding-right: 2%;
 }
 
+/* Set section 'body' width to 80% of page */
 section p {
     width: 80%;
 }
 
+/* Set image width to 100% of container */
 img {
     width: 100%;
 }
 
+/* Set first project width to 100% of container, making it larger than following projects */
 .image1 {
     width: 100%;
 }
 
+/* Set width of the rest of projects to make it appear smaller than first project */
 .images {
     width: 50%;
     padding-top: 2%;
 }
 
+/* made a container in which contains all projects except for the first project */
 .imagegroup {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.lastimg {
+/* Added additional padding to even out aesthetic */
+.rightimg {
     padding-left: 2%;
 }
 
+/* Set width of avatar to equal width of page */
 #neutral {
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    header,
+    body {
+      flex-direction: column;
+    }
+    section {
+      padding-right: 0;
+    }
+    main {
+      width: 100%;
+      text-align: center;
+    }
+  }
