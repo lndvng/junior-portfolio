@@ -15,7 +15,7 @@ My motivation for this was to create a portfolio website so that I can showcase 
 ![portfolio screenshot](./assets/images/portfolio%20screenshot.png)
 links in the nav bar will navigate you to associated section on website page
 
-click on a portfolio image to be directed to the deployed link of project in a new window 
+click on a project image to be directed to the deployed link of project in a new window 
 
 ## Deployed Website Link
 https://lndvng.github.io/junior-portfolio/
