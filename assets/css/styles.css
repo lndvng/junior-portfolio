@@ -1,0 +1,71 @@
+* {
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: grey;
+    text-align: justify;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav h1 {
+    width: 20%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 80%
+}
+
+figure {
+    width: 100%;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+section h2 {
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+    padding-right: 2%;
+}
+
+section p {
+    width: 80%;
+}
+
+img {
+    width: 100%;
+}
+
+.image1 {
+    width: 100%;
+}
+
+.images {
+    width: 50%;
+    padding-top: 2%;
+}
+
+.imagegroup {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lastimg {
+    padding-left: 2%;
+}
+
+#neutral {
+    width: 100%;
+}
