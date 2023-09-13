@@ -1,89 +1,85 @@
 /* General styles for entire page */
 * {
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Set navigation features */
-nav {
-    display: flex;
-    background-color: rgb(184, 168, 147);
-    text-align: justify;
-    justify-content: space-around;
+#nav {
     width: 100%;
     padding: 10px;
 }
 
-/* Set name in navbar width to 20% of page */
-nav h1 {
-    width: 20%;
-}
-
-/* Set nav links in nav bar to 80% of page */
-nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    width: 80%
-}
-
 /* Added padding to create space between body titles and content */
-main section {
+/* main section {
     display: flex;
     padding-right: 2%;
-}
+} */
 
 /* Create container for section */
-section {
+/* section {
     display: flex;
     width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
-}
+} */
 
 /* Set section titles to 20% of page */
-section h2 {
+/* section h2 {
     display: flex;
     width: 20%;
     justify-content: flex-end;
     padding-right: 2%;
-}
+} */
 
 /* Set section 'body' width to 80% of page */
-section p {
+/* section p {
     width: 80%;
-}
+} */
 
 /* Set image width to 100% of container */
+/* img {
+    width: 100%;
+} */
+
+/* Set first project width to 100% of container, making it larger than following projects */
+.image1 {
+    width: 99%;
+    border: 2px solid grey;
+}
+
 img {
     width: 100%;
 }
 
-/* Set first project width to 100% of container, making it larger than following projects */
-.image1 {
-    width: 100%;
-}
-
+/* .container90 {
+    width: 90%
+} */
 /* Set width of the rest of projects to make it appear smaller than first project */
 .images {
-    width: 50%;
-    padding-top: 2%;
+    width: 49%;
+    border: 2px solid grey;
 }
 
 /* made a container in which contains all projects except for the first project */
-.imagegroup {
+/* .imagegroup {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
+} */
 
 /* Added additional padding to even out aesthetic */
-.rightimg {
+/* .rightimg {
     padding-left: 2%;
-}
+} */
 
 /* Set width of avatar to equal width of page */
-#neutral {
+/* #neutral {
     width: 100%;
+} */
+
+.m4 {
+    text-align: right;
+    /* border-right: 3px solid grey; */
 }
 
 @media screen and (max-width: 768px) {

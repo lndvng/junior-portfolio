@@ -4,57 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <!-- linked reset and style css -->
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- linked materialized icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 
 <body>
     <!-- created nav bar which includes name and links that navigate to associated sections -->
-    <nav>
-        <h1>Linda Vuong</h1>
-        <ul>
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+
+    <nav class="brown lighten-3" id="nav">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Linda Vuong</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
     <!-- avater picture -->
     <img id="neutral" src="./assets/images/neutral.png"></figure>
 
     <main>
-        <section id="aboutme">
-            <h2>ABOUT ME</h2>
-            <p>My name is Linda Vuong. I currently live in Orange County. I am en route to becoming a full stack web developer.</p>
+        <section class="row">
+            <section class="card rounded col s4 m4" id="aboutme">
+                <h4>ABOUT ME</h4>
+            </section>
+            <section class="card col s8 m8">
+                <p>My name is Linda Vuong. I currently live in Orange County. I am en route to becoming a full stack web
+                    developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ea deserunt voluptas
+                    iure repellendus esse fuga nihil, laboriosam ipsum impedit, quae repudiandae molestiae? Dolorum
+                    alias ut repellendus voluptas vel architecto! Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Possimus, magnam quam. Necessitatibus aspernatur error, minus commodi doloremque esse tempora
+                    voluptatem facilis, doloribus ullam dolor rerum corporis veniam amet quam natus!
+                </p>
+            </section>
         </section>
 
-        <section id="projects">
-            <h2>PROJECTS</h2>
-            <p class="imagegroup">
-                <!-- clickable image that deploys to corresponding website -->
-                <a target="_blank" href="https://lndvng.github.io/code-refactor/"><img class="image1"
-                        src="./assets/images/code-refactor.png" alt="screenshot of code-refactor"></a>
+        <section class="row">
+            <section class="card col s4 m4" id="projects">
+                <h4>PROJECTS</h4>
+            </section>
+            <section class="card col s8 m8">
+                <p class=" imagegroup">
+                    <!-- clickable image that deploys to corresponding website -->
+                    <a target="_blank" href="https://krystiankowalak.github.io/poke-match/"><img class="image1"
+                            src="./assets/images/PokeDexSS.png" alt="screenshot of poke-match"></a>
 
-                <!-- placeholder project images. clickable links not yet included since this is just acting as a placeholder for now until more projects are added -->
-                <img class="images" src="./assets/images/neutral.png" alt="neutral texture">
-                <img class="images rightimg" src="./assets/images/neutral.png" alt="neutral texture">
-                <img class="images" src="./assets/images/neutral.png" alt="neutral texture"></figure>
-                <img class="images rightimg" src="./assets/images/neutral.png" alt="neutral texture">
+                    <!-- placeholder project images. clickable links not yet included since this is just acting as a placeholder for now until more projects are added -->
+                    <img class="images" src="./assets/images/neutral.png" alt="neutral texture">
+                    <img class="images rightimg" src="./assets/images/neutral.png" alt="neutral texture">
+                    <img class="images" src="./assets/images/neutral.png" alt="neutral texture"></figure>
+                    <img class="images rightimg" src="./assets/images/neutral.png" alt="neutral texture">
 
-            </p>
+                </p>
+            </section>
         </section>
 
-        <section id="contact">
-            <h2>CONTACT ME</h2>
-            <p>
-                Phone: 714.383.0764 | Email: Lvuong529@gmail.com | <a target="_blank" href="https://github.com/lndvng">Github</a>
-            </p>
+        <section class="row">
+            <section class="card col s4 m4" id="contact">
+                <h4>CONTACT ME</h4>
+            </section>
+            <section class="card col s8 m8 contactIcon">
+                <p>
+                    <i class=" material-icons">phone</i>Phone: 714.383.0764 | 
+                    <i class="material-icons">email</i>Email: Lvuong529@gmail.com | 
+                    <i class="material-icons">view_comfy</i>
+                    <a target="_blank"
+                        href="https://github.com/lndvng">Github</a>
+                </p>
+            </section>
         </section>
     </main>
-
-
 </body>
 
 </html>
