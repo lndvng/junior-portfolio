@@ -9,38 +9,6 @@
     padding: 10px;
 }
 
-/* Added padding to create space between body titles and content */
-/* main section {
-    display: flex;
-    padding-right: 2%;
-} */
-
-/* Create container for section */
-/* section {
-    display: flex;
-    width: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-} */
-
-/* Set section titles to 20% of page */
-/* section h2 {
-    display: flex;
-    width: 20%;
-    justify-content: flex-end;
-    padding-right: 2%;
-} */
-
-/* Set section 'body' width to 80% of page */
-/* section p {
-    width: 80%;
-} */
-
-/* Set image width to 100% of container */
-/* img {
-    width: 100%;
-} */
-
 /* Set first project width to 100% of container, making it larger than following projects */
 .image1 {
     width: 99%;
@@ -51,31 +19,11 @@ img {
     width: 100%;
 }
 
-/* .container90 {
-    width: 90%
-} */
 /* Set width of the rest of projects to make it appear smaller than first project */
 .images {
     width: 49%;
     border: 2px solid grey;
 }
-
-/* made a container in which contains all projects except for the first project */
-/* .imagegroup {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-} */
-
-/* Added additional padding to even out aesthetic */
-/* .rightimg {
-    padding-left: 2%;
-} */
-
-/* Set width of avatar to equal width of page */
-/* #neutral {
-    width: 100%;
-} */
 
 .m4 {
     text-align: right;
